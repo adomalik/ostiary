@@ -23,5 +23,6 @@ and the tag ID which opened the door.
 ###HOW TO SET IT UP
 
 Create your MySQL database with the file "1-MakeDB.sql". Then configure your webserver and place the file "check.php"
-in a folder named "ostiary". Download the Arduino sketch file, and change the ip, username, password, and port to
-reflect your configuration. Then save and compile the sketch an upload it to your Arduino.
+in a folder named "ostiary". Change the username, password and server information in the PHP file. Download the
+Arduino sketch file, and change the ip, username, password, and port to reflect your configuration. Then save and
+compile the sketch an upload it to your Arduino.
