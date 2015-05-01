@@ -13,14 +13,14 @@ only thing that is required is a 5V power connection for the unit itself. The sy
 case of a power outage, the door strike will remain closed. The Ostiary also has support for various types of exit
 switches, like Exit PIRs and push buttons.
 
-##HOW IT WORKS
+###HOW IT WORKS
 
 Ostiary is comprised of 3 main components: a MySQL database, an NFC reader and a webserver. The reader sends the
 scanned NFC tag to a webserver which checks it against a database. If the tag exists in the database then it sends an
 open command to the reader. When the door opens, an entry is created in the log table of the database with a timestamp
 and the tag ID which opened the door.
 
-##HOW TO SET IT UP
+###HOW TO SET IT UP
 
 Create your MySQL database with the file "1-MakeDB.sql". Then configure your webserver and place the file "check.php"
 in a folder named "ostiary". Download the Arduino sketch file, and change the ip, username, password, and port to
