@@ -26,3 +26,5 @@ Create your MySQL database with the file "1-MakeDB.sql". Then configure your web
 in a folder named "ostiary". Change the username, password and server information in the PHP file. Download the
 Arduino sketch file, and change the ip, username, password, and port to reflect your configuration. Then save and
 compile the sketch an upload it to your Arduino.
+
+For more information, visit the project page at https://sites.google.com/a/humbermail.ca/ostiary/home
